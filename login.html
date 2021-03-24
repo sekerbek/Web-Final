@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration</title>
+<!--BOOTSTRAP -->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--font-awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3e4eb48ec4.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="css/form.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2> Login </h2>
+        </div>
+        <form class="form" id="form" name="form1">
+
+             <div class="form-control" >
+                <label > Email </label>
+                <input name="text2" type="email" placeholder="email:  " id="email">
+<!-- checker icons, error or succes inputed data -->
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+<!-- ForShow, if the input not correct, error message -->
+
+                <small>Error message</small>
+            </div>
+             <div class="form-control">
+                <label> Password </label>
+                <input name="text3" type="password" placeholder="password: " id="password"  > <!--onchange='eventForm(this.value)'-->
+<!-- checker icons, error or succes inputed data -->
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+<!-- ForShow, if the input not correct, error message -->
+
+                <small>Error message</small>
+            </div>
+
+
+
+           <button id="butt" type="submit" value="Submit" >Submit</button>
+
+        </form>
+    </div>
+    <script src="js/login.js"></script>
+  </body>
+</html>

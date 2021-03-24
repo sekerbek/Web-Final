@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<!--BOOTSTRAP -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--font-awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/fav.css">
+  <title>Fav</title>
+</head>
+<body>
+  <header class="header">
+  		<div class="container">
+  			<nav class="header__nav nav">
+  				<ul class="nav__list">
+  					<li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+  					<li class="nav__item"><a href="Fav.html" class="nav__link">Buy</a></li>
+  					<li class="nav__item"><a href="Search.html" class="nav__link"><i class="fa fa-search"></i></a></li>
+  					<li class="nav__item"><a href="login.html" class="nav__link"><i class="fa fa-user" style="font-size:24px"></i></a></li>
+  				</ul>
+            <!-- here we put the thing that we want to buy -->
+  				<div class="header__cart cart" tabindex="0">
+  					<div class="cart__text">Favorite<span class="cart__quantity">0</span>
+  					</div>
+
+
+          <!-- <div class="cart-content">
+            <ul class="cart-content_list">
+              <li class="cart-content_item">
+                <article class="cart-content_product cart-product">
+                  <img src="img/cyberpunk1.jpg" alt="Game" class="cart-product_img">
+                  <div class="cart-product_text">
+                    <h3 class="cart-product_title">Cyberpunk 2077</h3>
+                    <span class="cart-product_price">13 399 tg</span>
+                  </div>
+                  <button class="cart-product_delete" aria-label="Delete a game"></button>
+                </article>
+              </li>
+            </ul>
+            <div class="cart-content_bottom">
+                <div class="cart-content_fullprice">
+                  <span>Full price :</span>
+                  <span class="fullprice"> 13 999 tg </span>
+                </div>
+              <button class="cart-content_btn btn">
+                Oformit order
+              </button>
+            </div>
+          </div>
+        </div> -->
+      </nav>
+    </div>
+
+  </header>
+  <main class="content">
+  <div class="container">
+    <div class="product-content grid-container">
+      <!-- <div class="filters">  </div> // price -->
+        <ul class="product-grid">
+          <li class="product-grid_item">
+            <article class="product">
+              <a class="product_image"> <!--  big continer for images -->
+                  <div class="product_switch image-switch">
+                      <div class="image-switch_item">
+                        <div class="image-switch_img"><img src="img/cyberpunk1.jpg" alt="Game"></div>
+                        </div>
+                      <div class="image-switch_item">
+                        <div class="image-switch_img"><img src="img/cyberpunk2.jpg" alt="Game"></div>
+                        </div>
+                        <div class="image-switch_item">
+                          <div class="image-switch_img"><img src="img/cyberpunk3.jpg" alt="Game"></div>
+                        </div>
+            </div>
+            <ul class="product_image-pagination image-pagination" aria-hidden="true"></ul>
+            </a>
+                <h3 class="product_title">
+                  <a href="#">Cyberpunk 2077</a>
+                </h3>
+            <br>
+            <div class="product_price">
+              <span class="product-price_current">13 399 tg</span>
+            </div>
+            <br>
+
+            <button class="product_btn btn btn">Заказать</button>
+            </article>
+          </li>
+          <li class="product-grid_item">
+            <article class="product">
+              <a class="product_image"> <!--  big continer for images -->
+                  <div class="product_switch image-switch">
+                      <div class="image-switch_item">
+                        <div class="image-switch_img"><img src="img/cyberpunk1.jpg" alt="Game"></div>
+                        </div>
+                      <div class="image-switch_item">
+                        <div class="image-switch_img"><img src="img/cyberpunk2.jpg" alt="Game"></div>
+                        </div>
+                        <div class="image-switch_item">
+                          <div class="image-switch_img"><img src="img/cyberpunk3.jpg" alt="Game"></div>
+                        </div>
+            </div>
+            <ul class="product_image-pagination image-pagination" aria-hidden="true"></ul>
+            </a>
+                <h3 class="product_title">
+                  <a href="#">Cyberpunk 2077</a>
+                </h3>
+            <br>
+            <div class="product_price">
+              <span class="product-price_current">13 399 tg</span>
+            </div>
+            <br>
+
+            <button class="product_btn btn btn">Заказать</button>
+            </article>
+          </li>
+          <li class="product-grid_item">
+            <article class="product">
+              <a class="product_image"> <!--  big continer for images -->
+                  <div class="product_switch image-switch">
+                      <div class="image-switch_item">
+                        <div class="image-switch_img"><img src="img/cyberpunk1.jpg" alt="Game"></div>
+                        </div>
+                      <div class="image-switch_item">
+                        <div class="image-switch_img"><img src="img/cyberpunk2.jpg" alt="Game"></div>
+                        </div>
+                        <div class="image-switch_item">
+                          <div class="image-switch_img"><img src="img/cyberpunk3.jpg" alt="Game"></div>
+                        </div>
+            </div>
+            <ul class="product_image-pagination image-pagination" aria-hidden="true"></ul>
+            </a>
+                <h3 class="product_title">
+                  <a href="#">Cyberpunk 2077</a>
+                </h3>
+            <br>
+            <div class="product_price">
+              <span class="product-price_current">13 399 tg</span>
+            </div>
+            <br>
+
+            <button class="product_btn btn">Заказать</button>
+            </article>
+          </li>
+          <li class="product-grid_item">
+            <article class="product">
+              <a class="product_image"> <!--  big continer for images -->
+                  <div class="product_switch image-switch">
+                      <div class="image-switch_item">
+                        <div class="image-switch_img"><img src="img/cyberpunk1.jpg" alt="Game"></div>
+                        </div>
+                      <div class="image-switch_item">
+                        <div class="image-switch_img"><img src="img/cyberpunk2.jpg" alt="Game"></div>
+                        </div>
+                        <div class="image-switch_item">
+                          <div class="image-switch_img"><img src="img/cyberpunk3.jpg" alt="Game"></div>
+                        </div>
+            </div>
+            <ul class="product_image-pagination image-pagination" aria-hidden="true"></ul>
+            </a>
+                <h3 class="product_title">
+                  <a href="#">Cyberpunk 2077</a>
+                </h3>
+            <br>
+            <div class="product_price">
+              <span class="product-price_current">13 399 tg</span>
+            </div>
+            <br>
+
+            <button class="product_btn btn">Заказать</button>
+            </article>
+          </li>
+          <li class="product-grid_item">
+            <article class="product">
+              <a class="product_image"> <!--  big continer for images -->
+                  <div class="product_switch image-switch">
+                      <div class="image-switch_item">
+                        <div class="image-switch_img"><img src="img/cyberpunk1.jpg" alt="Game"></div>
+                        </div>
+                      <div class="image-switch_item">
+                        <div class="image-switch_img"><img src="img/cyberpunk2.jpg" alt="Game"></div>
+                        </div>
+                        <div class="image-switch_item">
+                          <div class="image-switch_img"><img src="img/cyberpunk3.jpg" alt="Game"></div>
+                        </div>
+            </div>
+            <ul class="product_image-pagination image-pagination" aria-hidden="true"></ul>
+            </a>
+                <h3 class="product_title">
+                  <a href="#">Cyberpunk 2077</a>
+                </h3>
+            <br>
+            <div class="product_price">
+              <span class="product-price_current">13 399 tg</span>
+            </div>
+            <br>
+
+            <button class="product_btn btn">Заказать</button>
+            </article>
+          </li>
+        </ul>
+
+    </div>
+  </div>
+</main>
+<script src="js/cart.js"></script>
+<script src="js/fav.js"></script>
+</body>
+</html>
